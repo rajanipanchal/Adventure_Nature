@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+   
+nav.navbar.navbar-expand-lg {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+a.nav-link {
+    color: #eb0f42;
+}
+div#navbarSupportedContent {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+li.nav-item {
+    font-weight: 600;
+    font-family: emoji;
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 17px;
+}
+a.nav-link:hover{
+    color: black;
+    
+}
+.manubar i.bars {
+    color: black;
+}
+
+.manubar i.bars:hover{
+    color:#eb0f42 ;
+}
+.adv_header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background_.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contant{
+    color: black;
+    text-align: center;
+}
+.contant p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:emoji;
+}
+.line{
+    width: 120px;
+    height: 4px;
+    background-color:#eb0f42;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+.contant h1{
+    font-size: 50px;
+    font-family: emoji;
+    text-transform: uppercase;
+    
+}
+button{
+    
+    color:whitesmoke;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 2px;
+    background-color: #eb0f42;
+    transition: all 0.5s;
+   border-radius: 15px;
+   z-index: 0;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.events{
+    text-align: center;
+width: 100%;
+
+}
+.events .heading1 {
+text-align: center;
+margin: 15px;
+}
+.events .heading1 h1 {
+text-transform: capitalize;
+font-size: 30px;
+font-family: emoji;
+color: black;
+letter-spacing: 1px;
+font-weight: 600;
+}
+.line_1 {
+width: 120px;
+height: 4px;
+background: #eb0f42;
+margin: 10px auto;
+border-radius: 10px;
+}
+
+.contant1 {
+width: 100%;
+}
+.contant1 .row .card {
+    text-align: center;
+width: 100%;
+border: 0px;
+z-index: 1;
+
+}
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+    max-width: 100%;
+    
+}
+/*animation*/ .card-img-top{
+    transition:transform 0.3s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+.contant1 .row .card:hover {
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.203);
+background-color: transparent;
+}
+
+.row .card p.card-text {
+color: black;
+font-weight: 500;
+font-family: fangsong;
+}
+
+.row .card h5.card-title {
+color: #0081c0;
+font-family: fangsong;
+text-transform: capitalize;
+font-weight: 600;
+}
+.row .card  h5 {
+color: #0000008c;
+text-transform: capitalize;
+}
+
+.row .card h5 b {
+color: red;
+}
+
+.row .card a.btn.btn-primary {
+background-color: transparent;
+color: black;
+text-transform: capitalize;
+font-weight: 600;
+border-radius: 0px;
+padding: 5px;
+margin: 2px;
+box-shadow: 2px 2px 4px #0080c090;
+}
+.row .card a.btn.btn-primary:hover{
+background-color: #eb0f42;
+color: whitesmoke;
+}
+
+.contant2 {
+        background-image: url(images/climb1.jpg);
+        background-position:center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        
+}
+@media(max-width:700px){
+    .contant2{
+        width: 100%;
+    }
+}
+.contant2 .heading2 {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+@media(max-width:912px){
+    .contant2 .heading2{
+        transform: translate(-40%,-40%);
+    }
+}
+
+.contant2 .heading2 h1 {
+    font-family: fangsong;
+    text-transform: uppercase;
+    color:black;
+    font-size: 45px;
+}
+.line\.1 {
+    width: 120px;
+    height: 4px;
+    background-color:#eb0f42;
+    border-radius: 2px;
+    margin: 10px auto;
+}
+
+.contant2 .heading2 p {
+    font-family: fangsong;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+
+button {
+    border-radius: 5px;
+    
+}
+
+.contant3{
+width: 100%;
+margin-top: 30px;
+text-align: center; 
+align-items: center;
+}
+.contant3 .images{
+display: flex;
+flex-wrap: wrap;
+max-width: 100%;
+display: flex; 
+align-items: center;
+justify-content: center;
+}
+.images img{
+width: 280px;
+margin: 10px;
+text-align: center;
+}
+
+/*animation*/.images img{
+    transition: transform 0.3s ease;
+    
+    
+}
+.images img:hover{
+    transform: scale(1.1);
+}
+
+
+.heading3 {
+margin-top: 20px;
+width: 100%;
+text-align: center;
+
+}
+
+.heading3 h1 {
+font-family: fangsong;
+text-transform: uppercase;
+color: #eb0f42;
+}
+.heading3 p {
+font-size: 20px;
+color: black;
+font-weight: 600;
+font-family: fangsong;
+text-transform: capitalize;
+
+}
+
+.heading3 button {
+background-color: #eb0f42;
+border-radius:10px;
+}
+.heading3 button:hover{
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.203);
+    background-color: whitesmoke;
+}
+.footer {
+width: 100%;
+margin-top: 25px;
+background-color: #00000059;
+}
+.footer .popular.treks {
+    margin-top: 10px;
+width: 100%;
+cursor: pointer;
+}
+.popular.treks h3 {
+text-transform: capitalize;
+font-size: 20px;
+color:black;
+font-family: emoji;
+font-weight: 600;
+}
+.popular.treks li {
+color: whitesmoke;
+text-transform: capitalize;
+font-family: revert;
+}
+
+.popular.treks ul {
+margin-top: 10px;
+}
+.help {
+    margin-top: 10px;
+width: 100%;
+cursor: pointer;
+}
+.help h3 {
+text-transform: capitalize;
+font-size: 20px;
+color: black;
+font-family: emoji;
+font-weight: 600;
+
+}
+
+.help ul {
+margin-top: 10px;
+}
+
+.help li {
+color: whitesmoke;
+text-transform: capitalize;
+font-family: revert;
+}
+.sign.up.for.our.newslatter {
+width: 100%;
+margin-top: 40px;
+cursor: pointer;
+}
+
+.sign.up.for.our.newslatter h3 {
+text-transform: capitalize;
+font-size: 25px;
+color: whitesmoke;
+font-family: emoji;
+font-weight: 600;
+}
+.social.media {
+width: 100%;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.social.media h5 {
+text-transform: capitalize;
+font-size: 20px;
+color: whitesmoke;
+font-family: emoji;
+font-weight: 600;
+}
+
+.social_media_icons img {
+margin: 5px;
+}
+.footer p {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
