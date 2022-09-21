@@ -2,12 +2,12 @@
 
 
 
-![https://my-adventure-nature.netlify.app/](https://my-adventure-nature.netlify.app/"project01")
+![badge](https://img.shields.io/badge/Technologies-HTML/CSS/Bootstrap-green)
 
 <br>
 
 ## Project live link
-[#](# "project01")
+[https://my-adventure-nature.netlify.app](https://my-adventure-nature.netlify.app "project01")
 
 <hr>
 
